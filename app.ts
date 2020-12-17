@@ -1,4 +1,6 @@
-function addition(e1: number| string, e2: number|string, result: 'as-num'|'as-txt'){
+type Combinable = number |string; // alias
+
+function addition(e1: Combinable, e2: Combinable, result: 'as-num'|'as-txt'){
   let res
   if(typeof e1==='number'&& e2==='number' || result==='as-num'){
     res =+e1 + +e2
