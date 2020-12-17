@@ -1,14 +1,15 @@
-function addition(e1: number| string, e2: number|string){
-  let result
-  if(typeof e1==='number'&& e2==='number'){
-    result =e1+e2
+function addition(e1: number| string, e2: number|string, result: 'as-num'|'as-txt'){
+  let res
+  if(typeof e1==='number'&& e2==='number' || result==='as-num'){
+    res =+e1 + +e2
   }else{
-    result= e1.toString()+e2.toString()
+    res= e1.toString()+e2.toString()
   }
-  return result
+  return res
 }
 
-const intAdd = addition(1,2)
-const strAdd = addition("A","V")
+const intAdd = addition(1,2, 'as-num')
+const strAdd = addition("A","V", 'as-txt')
 console.log(intAdd);
 console.log(strAdd)
+console.log(typeof +"2")
