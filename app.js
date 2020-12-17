@@ -1,14 +1,14 @@
-var Role;
-(function (Role) {
-    Role[Role["ADMIN"] = 0] = "ADMIN";
-    Role[Role["USER"] = 1] = "USER";
-    Role[Role["SUPERUSER"] = 2] = "SUPERUSER";
-})(Role || (Role = {}));
-var person = {
-    name: "Peter",
-    age: 12,
-    nickname: "P",
-    hobbies: ["swimming", "soccer"],
-    roles: Role.ADMIN
-};
-console.log(person);
+function addition(e1, e2) {
+    var result;
+    if (typeof e1 === 'number' && e2 === 'number') {
+        result = e1 + e2;
+    }
+    else {
+        result = e1.toString() + e2.toString();
+    }
+    return result;
+}
+var intAdd = addition(1, 2);
+var strAdd = addition("A", "V");
+console.log(intAdd);
+console.log(strAdd);

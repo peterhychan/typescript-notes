@@ -6,4 +6,5 @@ Core Types
 5. array
 6. **tuples => fixed length + type array
 7. **enums =>  automatically enumerated global constant identifiers
+8. **any => Existed but NOT recommended
 
