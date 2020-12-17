@@ -2,4 +2,6 @@ Core Types
 1. number => No differentiation b/t int or floats
 2. string 
 3. boolean
+4. object
+
 
