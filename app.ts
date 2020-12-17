@@ -1,11 +1,17 @@
 const person: {
   name: string,
   age: number,
-  nickname: string
+  nickname: string,
+  hobbies:string[]
 } = {
   name:"Peter",
   age:12,
-  nickname: "P"
+  nickname: "P",
+  hobbies:["swimming","soccer"]
 }
 
-console.log(person.nickname)
+for (const h of person.hobbies){
+  console.log(h)
+}
+
+console.log(person)
