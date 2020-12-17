@@ -4,4 +4,6 @@ Core Types
 3. boolean
 4. object
 5. array
+6. **tuples => fixed length + type array
+7. **enums =>  automatically enumerated global constant identifiers
 

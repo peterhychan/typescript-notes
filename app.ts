@@ -1,17 +1,22 @@
+enum Role {
+  ADMIN,
+  USER,
+  SUPERUSER
+}
+
 const person: {
   name: string,
   age: number,
   nickname: string,
-  hobbies:string[]
+  hobbies:string[],
+  roles: Role
 } = {
   name:"Peter",
   age:12,
   nickname: "P",
-  hobbies:["swimming","soccer"]
+  hobbies:["swimming","soccer"],
+  roles: Role.ADMIN
 }
 
-for (const h of person.hobbies){
-  console.log(h)
-}
 
 console.log(person)
