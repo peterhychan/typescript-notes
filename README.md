@@ -6,3 +6,7 @@ This is my study notes on learning TypeScript.
 1. Make sure typescript is installed on local computer
 2. Install `lite-server` 
 3. When you update the `.tsc` file, run `npm run start`
+
+TODOS
+1. Add React App Demo
+2. Add NodeJS Demo
