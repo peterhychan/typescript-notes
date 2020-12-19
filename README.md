@@ -2,6 +2,8 @@
 
 This is my study notes on learning TypeScript. 
 
+[Certificate of Completion on Udemy](https://www.udemy.com/certificate/UC-bad194b1-828a-40ea-a260-3d6ee80af944/)
+
 ## Setup for a great TSC environment
 1. Make sure typescript is installed on local computer
 2. Install `lite-server` 
